@@ -1,1 +1,1 @@
-# linkedin_training
+/################THIS REPOSITORY CONTAINS TRAINING FILES ONLY################\
