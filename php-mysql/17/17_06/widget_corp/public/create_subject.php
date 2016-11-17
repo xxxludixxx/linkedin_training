@@ -1,11 +1,8 @@
 <?php require_once("../includes/session.php"); ?>
 <?php require_once("../includes/db_connection.php"); ?>
 <?php require_once("../includes/functions.php"); ?>
-
-<?php
-if (isset($_POST['submit'])) {
+<?php if(isset($_POST['submit'])) {
 	// Process the form
-	
 	$menu_name = mysql_prep($_POST["menu_name"]);
 	$position = (int) $_POST["position"];
 	$visible = (int) $_POST["visible"];
